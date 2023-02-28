@@ -6,7 +6,7 @@ const SocialFour = () => {
       {/* <!--Social Icon--> */}
       <a
         className="ptf-social-icon ptf-social-icon--style-4 facebook"
-        href="#"
+        href="www.facebook.com/vbeasy/"
         target="_blank"
       >
         <i className="socicon-facebook"></i>
@@ -14,7 +14,7 @@ const SocialFour = () => {
       {/* <!--Social Icon--> */}
       <a
         className="ptf-social-icon ptf-social-icon--style-4 twitter"
-        href="#"
+        href="https://twitter.com/vbeasyit?lang=en"
         target="_blank"
       >
         <i className="socicon-twitter"></i>
@@ -22,7 +22,7 @@ const SocialFour = () => {
       {/* <!--Social Icon--> */}
       <a
         className="ptf-social-icon ptf-social-icon--style-4 pinterest"
-        href="#"
+        href="https://in.pinterest.com/vbeasy/"
         target="_blank"
       >
         <i className="socicon-pinterest"></i>
@@ -30,7 +30,7 @@ const SocialFour = () => {
       {/* <!--Social Icon--> */}
       <a
         className="ptf-social-icon ptf-social-icon--style-4 linkedin"
-        href="#"
+        href="https://in.linkedin.com/company/vbeasy"
         target="_blank"
       >
         <i className="socicon-linkedin"></i>

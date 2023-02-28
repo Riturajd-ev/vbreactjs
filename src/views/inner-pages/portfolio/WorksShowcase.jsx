@@ -217,7 +217,7 @@ const WorksShowcase = () => {
                           Thiago Alcantara
                         </h6>
                         <div className="ptf-twitter-review__info">
-                          <a href="#">@thiago.lfc</a> - 15 Dec, 2022
+                          {/* <a href="#"> @thiago.lfc</a> - 15 Dec, 2022 */}
                         </div>
                       </div>
                       <div className="ptf-twitter-review__icon">

@@ -33,7 +33,7 @@ const Team = () => {
                     data-aos="fade"
                     data-aos-delay="0"
                   >
-                    <h1 className="large-heading">The face of Moonex Labs</h1>
+                    <h1 className="large-heading">Our Team</h1>
                     {/* <!--Spacer--> */}
                     <div
                       className="ptf-spacer"

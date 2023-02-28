@@ -303,13 +303,13 @@ const Preview = () => {
                 style={{ "--ptf-xxl": "0.625rem" }}
               ></div>
               {/* <!--Button--> */}
-              <a
+              {/* <a
                 className="ptf-btn ptf-btn--success"
                 href="https://themeforest.net/item/moonex-portfolio-agency-react-template/35431456"
                 target="_blank"
               >
                 Purchase Now
-              </a>
+              </a> */}
               {/* <!--Spacer--> */}
               <div
                 className="ptf-spacer"

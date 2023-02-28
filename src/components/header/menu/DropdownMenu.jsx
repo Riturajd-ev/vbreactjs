@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 const menuContent = [
   {
     name: "Home",
+    routerPath: "home-agency",
     activeClass: "sf-with-ul",
     menuClass: "two-columns current-menu-item",
     dropDownItems: [
@@ -44,6 +45,7 @@ const menuContent = [
   },
   {
     name: "Portfolio",
+    // routerPath: "/works-listing",
     activeClass: "",
     menuClass: "",
     dropDownItems: [
@@ -63,37 +65,44 @@ const menuContent = [
       //   name: "Works Carousel",
       //   routerPath: "/works-carousel",
       // },
-      {
-        name: "Works Showcase",
-        routerPath: "/works-showcase",
-      },
+      // {
+      //   name: "Works Showcase",
+      //   routerPath: "/works-showcase",
+      // },
     ],
   },
+  // {
+  //   name: "Work Listing",
+  //   routerPath: "/works-listing",
+  //   activeClass: "",
+  //   menuClass: "",
+  //   dropDownItems:[],
+  // },
   {
     name: "Blog",
     activeClass: "",
     menuClass: "",
     dropDownItems: [
-      {
-        name: "Blog Grid",
-        routerPath: "/blog-grid",
-      },
-      {
-        name: "Blog Masonry",
-        routerPath: "/blog-masonry",
-      },
+      // {
+      //   name: "Blog Grid",
+      //   routerPath: "/blog-grid",
+      // },
+      // {
+      //   name: "Blog Masonry",
+      //   routerPath: "/blog-masonry",
+      // },
       {
         name: "Blog Sidebar",
         routerPath: "/blog-sidebar",
       },
-      {
-        name: "Blog Details",
-        routerPath: "/blog-details",
-      },
-      {
-        name: "Blog Details Sidebar",
-        routerPath: "/blog-details-sidebar",
-      },
+      // {
+      //   name: "Blog Details",
+      //   routerPath: "/blog-details",
+      // },
+      // {
+      //   name: "Blog Details Sidebar",
+      //   routerPath: "/blog-details-sidebar",
+      // },
     ],
   },
   {
@@ -133,14 +142,14 @@ const menuContent = [
         name: "Contact",
         routerPath: "/contact",
       },
-      {
-        name: "Page 404",
-        routerPath: "/404",
-      },
-      {
-        name: "Coming Soon",
-        routerPath: "/coming-soon",
-      },
+      // {
+      //   name: "Page 404",
+      //   routerPath: "/404",
+      // },
+      // {
+      //   name: "Coming Soon",
+      //   routerPath: "/coming-soon",
+      // },
     ],
   },
 ];
@@ -150,7 +159,7 @@ const DropdownMenu = () => {
     <ul className="sf-menu">
       {menuContent.map((item, i) => (
         <li className={`menu-item-has-children ${item.menuClass}`} key={i}>
-          <a href="#" className={item.activeClass}>
+          <a href="/" className={item.activeClass}>
             <span>{item.name}</span>
           </a>
 

@@ -12,7 +12,9 @@ import Social from "../../social/Social";
 
 const menuContent = [
   {
-    name: "Home",
+    name: "Home Agency",
+    // routerPath:"/home-agency",
+    routerPath: "/",
     dropDownItems: [
       // {
       //   name: "Home Default",
@@ -24,7 +26,8 @@ const menuContent = [
       // },
       {
         name: "Home Agency",
-        routerPath: "/home-agency",
+        routerPath: "/",
+        // routerPath: "/home-agency",
       },
       // {
       //   name: "Home Minimal",
@@ -51,63 +54,63 @@ const menuContent = [
   {
     name: "Portfolio",
     dropDownItems: [
-      {
-        name: "Works Grid",
-        routerPath: "/works-grid",
-      },
-      {
-        name: "Works Masonry",
-        routerPath: "/works-masonry",
-      },
+      // {
+      //   name: "Works Grid",
+      //   routerPath: "/works-grid",
+      // },
+      // {
+      //   name: "Works Masonry",
+      //   routerPath: "/works-masonry",
+      // },
       {
         name: "Works Listing",
         routerPath: "/works-listing",
       },
-      {
-        name: "Works Carousel",
-        routerPath: "/works-carousel",
-      },
-      {
-        name: "Works Showcase",
-        routerPath: "/works-showcase",
-      },
+      // {
+      //   name: "Works Carousel",
+      //   routerPath: "/works-carousel",
+      // },
+      // {
+      //   name: "Works Showcase",
+      //   routerPath: "/works-showcase",
+      // },
     ],
   },
   {
     name: "Blog",
     dropDownItems: [
-      {
-        name: "Blog Grid",
-        routerPath: "/blog-grid",
-      },
-      {
-        name: "Blog Masonry",
-        routerPath: "/blog-masonry",
-      },
+      // {
+      //   name: "Blog Grid",
+      //   routerPath: "/blog-grid",
+      // },
+      // {
+      //   name: "Blog Masonry",
+      //   routerPath: "/blog-masonry",
+      // },
       {
         name: "Blog Sidebar",
         routerPath: "/blog-sidebar",
       },
-      {
-        name: "Blog Details",
-        routerPath: "/blog-details",
-      },
-      {
-        name: "Blog Details Sidebar",
-        routerPath: "/blog-details-sidebar",
-      },
+      // {
+      //   name: "Blog Details",
+      //   routerPath: "/blog-details",
+      // },
+      // {
+      //   name: "Blog Details Sidebar",
+      //   routerPath: "/blog-details-sidebar",
+      // },
     ],
   },
   {
     name: "Pages",
     dropDownItems: [
+      // {
+      //   name: "About Us",
+      //   routerPath: "/about-us",
+      // },
       {
-        name: "About Us",
-        routerPath: "/about-us",
-      },
-      {
-        // name: "About Me",
-        // routerPath: "/about-me",
+        name: "About Me",
+        routerPath: "/about-me",
       },
       {
         name: "Services",
@@ -156,6 +159,7 @@ const MobileMenu = () => {
                 <SubMenu title={item.name} key={i}>
                   {item.dropDownItems.map((val, i) => (
                     <MenuItem key={i}>
+                      {/* <Link to="/">{val.name}</Link> */}
                       <Link to={val.routerPath}>{val.name}</Link>
                     </MenuItem>
                   ))}
@@ -169,17 +173,17 @@ const MobileMenu = () => {
 
       <div className="ptf-offcanvas-menu__footer">
         <p className="ptf-offcanvas-menu__copyright">
-          @{new Date().getFullYear()} <span>Moonex</span>. All Rights Reserved.{" "}
+          @{new Date().getFullYear()} <span>VBEasy</span>. All Rights Reserved.{" "}
           <br />
-          Development by{" "}
+          {/* Development by{" "} */}
           <span>
-            <a
+            {/* <a
               href="https://themeforest.net/user/ib-themes"
               target="_blank"
               rel="noopener noreferrer"
             >
               ib-themes
-            </a>
+            </a> */}
           </span>
           .
         </p>

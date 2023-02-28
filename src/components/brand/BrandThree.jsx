@@ -21,6 +21,34 @@ const brandContent = [
     delayAnimation: "400",
     icon: "logo-5-black",
   },
+  {
+    delayAnimation: "0",
+    icon: "logo-6",
+  },
+  {
+    delayAnimation: "100",
+    icon: "logo-7",
+  },
+  {
+    delayAnimation: "200",
+    icon: "logo-8",
+  },
+  {
+    delayAnimation: "300",
+    icon: "logo-9",
+  },
+  {
+    delayAnimation: "400",
+    icon: "logo-10",
+  },
+  {
+    delayAnimation: "400",
+    icon: "logo-11",
+  },
+  {
+    delayAnimation: "400",
+    icon: "logo-12",
+  },
 ];
 
 const BrandThree = () => {
@@ -31,7 +59,7 @@ const BrandThree = () => {
           ptf-clients-list--center
           ptf-clients-list--style-2
         "
-      data-columns="5"
+      data-columns="12"
     >
       {brandContent.map((val, i) => (
         <li

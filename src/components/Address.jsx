@@ -9,9 +9,9 @@ const Address = () => {
         {/* <!--Spacer--> */}
         <div className="ptf-spacer" style={{ "--ptf-xxl": "1.25rem" }}></div>
         <p className="fz-20 lh-1p5 has-black-color">
-          90 Fairground Rd St FL 3290
+          13 EC Road, Dehradun
           <br />
-          United States
+          India
         </p>
       </div>
 
@@ -28,7 +28,7 @@ const Address = () => {
           support@vbeasy.com
             <br />
           </a>
-          <a href="mailto:career@moonex.co">career@moonex.co</a>
+          <a href="mailto:info@vbeasy.com">info@vbeasy.com</a>
         </p>
       </div>
 

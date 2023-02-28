@@ -2,13 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const footerItems = [
-  { itemName: "Faqs", link: "" },
+  { itemName: "Faqs", link: "faq" },
   { itemName: "Term & Conditions", link: "" },
   { itemName: "Privacy Policy", link: "" },
-  { itemName: "Help", link: "" },
-  { itemName: "Works", link: "" },
-  { itemName: "Studio", link: "" },
-  { itemName: "News", link: "" },
+  { itemName: "Help", link: "faq" },
+  { itemName: "Services", link: "service" },
+  { itemName: "Blog", link: "blog-sidebar" },
+  // { itemName: "News", link: "" },
 ];
 
 const FooterList = () => {

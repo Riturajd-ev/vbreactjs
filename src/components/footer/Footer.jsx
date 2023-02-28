@@ -3,9 +3,14 @@ import { Link } from "react-router-dom";
 // import FooterList from "../list/FooterList";
 
 const linkList = [
+
+  {
+    itemName: "Blog",
+    link: "/blog-sidebar",
+  },
   {
     itemName: "Faqs",
-    link: "/",
+    link: "/faq",
   },
   {
     itemName: "Term & Conditions",
@@ -15,36 +20,32 @@ const linkList = [
     itemName: "Privacy Policy",
     link: "/",
   },
-  {
-    itemName: "Help",
-    link: "/",
-  },
-  {
-    itemName: "Affiliate",
-    link: "/",
-  },
-  {
-    itemName: "Services",
-    link: "/",
-  },
+  // {
+  //   itemName: "Affiliate",
+  //   link: "/",
+  // },
 ];
 
 const Product = [
-  {
-    itemName: "Works",
-    link: "/",
-  },
+  // {
+  //   itemName: "Works",
+  //   link: "/service",
+  // },
   {
     itemName: "About",
-    link: "/",
+    link: "/about-me",
   },
   {
-    itemName: "News",
-    link: "/",
+    itemName: "Services",
+    link: "/service",
   },
   {
     itemName: "Contact",
-    link: "/",
+    link: "/contact",
+  },
+  {
+    itemName: "Help",
+    link: "/faq",
   },
 ];
 
@@ -58,7 +59,7 @@ const Footer = () => {
             className="ptf-footer-heading has-black-color"
             style={{ maxWidth: "37.5rem" }}
           >
-            Boost Your Business Up To High Level
+            Boost Your Business Up To High Level With VBeasy
           </div>
 
           <div className="ptf-footer-heading has-black-color">
@@ -71,9 +72,9 @@ const Footer = () => {
             </Link>
           </div>
 
-          <p className="fz-24">90 Fairground Rd, FL 3290, United States</p>
-          <a className="fz-40 has-black-color" href="mailto:hello@moonex.co">
-            hello@moonex.co
+          <p className="fz-24">13 EC Road, Dehradun, India</p>
+          <a className="fz-40 has-black-color" href="mailto:support@vbeasy.com">
+            support@vbeasy.com
           </a>
         </div>
       </div>

@@ -19,12 +19,12 @@ const teamContent = [
     title: "Vince",
     designation: "Full Stack Developer",
   },
-  {
-    delayAnimation: "300",
-    img: "team-4",
-    title: "Sumit",
-    designation: "Italian Transcriber, Interpreter, Voice actor",
-  },
+  // {
+  //   delayAnimation: "300",
+  //   img: "team-4",
+  //   title: "Sumit",
+  //   designation: "Italian Transcriber, Interpreter, Voice actor",
+  // },
   {
     delayAnimation: "0",
     img: "team-5",

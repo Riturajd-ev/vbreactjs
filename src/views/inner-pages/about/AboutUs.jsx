@@ -269,7 +269,7 @@ const AboutUs = () => {
               style={{
                 backgroundImage: `url(${
                   process.env.PUBLIC_URL +
-                  "assets/img/about-us-testimonial-background.png"
+                  "../assets/img/about-us-testimonial-background.png"
                 })`,
               }}
             >

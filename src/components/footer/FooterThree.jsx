@@ -36,15 +36,15 @@ const FooterThree = () => {
           data-aos-delay="200"
         >
           <div className="ptf-widget ptf-widget-text">
-            <a className="fz-36 has-black-color" href="mailto:hello@moonex.co">
-              hello@moonex.co
+            <a className="fz-36 has-black-color" href="support@vbeasy.com">
+              support@vbeasy.com
             </a>
             {/* <!--Spacer--> */}
             <div
               className="ptf-spacer"
               style={{ "--ptf-xxl": "0.625rem" }}
             ></div>
-            <p className="fz-18">90 Fairground Rd, FL 3290, United States</p>
+            <p className="fz-18">13 EC Road, Dehradun, India</p>
           </div>
         </div>
       </div>

@@ -2,11 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const serviceList = [
-  { name: "Branding", number: "17" },
-  { name: " Interaction Design", number: "54" },
-  { name: "Motion", number: "6" },
-  { name: "Illustration", number: "9" },
-  { name: "Photography", number: "25" },
+  { name: "Web App Development", number: "17" },
+  { name: " Mobile App Development", number: "54" },
+  { name: "Google Sheets Automation", number: "6" },
+  { name: "Software Development Consulting", number: "9" },
+  { name: "UI/UX Website Design", number: "25" },
 ];
 
 const ServiceListFive = () => {

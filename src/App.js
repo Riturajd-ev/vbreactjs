@@ -22,7 +22,8 @@ const App = () => {
         <meta name="description" content="Portfolio & Agency React Template" />
         <meta
           name="keywords"
-          content="agency, bootstrap 5, business, clean, corporate, creative, fullpage, minimal, modern, multipurpose, parallax, personal, photography, portfolio, showcase"
+          // content="agency, bootstrap 5, business, clean, corporate, creative, fullpage, minimal, modern, multipurpose, parallax, personal, photography, portfolio, showcase"
+          content="Full Stack web Development Agency, UX&UI Development, App Development, Web Development, Web & App Development and Design,Marketing,API, Appscript,Google Workspace,Google Spreadsheets,content writing"
         />
       </Helmet>
       {/* End React Helmet for SEO */}

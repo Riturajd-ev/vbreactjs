@@ -38,7 +38,8 @@ const HeroAgency = () => {
                 className="fz-24 has-white-color text-center"
                 style={{ maxWidth: "34.375rem", margin: "0 auto" }}
               >
-                Automate Your Business Tools.
+                Like any great agency, we are only as good as the result we
+                deliver of our recent work.
               </p>
 
               {/* <!--Spacer--> */}
@@ -70,8 +71,8 @@ const HeroAgency = () => {
           <div className="ptf-showcase-slide">
             <div className="container">
               <h1 className="fz-100 fz-90--lg lh-1 has-white-color text-center">
-                <span className="has-accent-1">Web & Mobile</span><br />
-                App Development Company
+                <span className="has-accent-1">Google Sheets</span><br />
+                 Automation
               </h1>
               {/* <!--Spacer--> */}
               <div
@@ -82,8 +83,8 @@ const HeroAgency = () => {
                 className="fz-24 has-white-color text-center"
                 style={{ maxWidth: "34.375rem", margin: "0 auto" }}
               >
-                Like any great agency, we are only as good as the result we
-                deliver of our recent work.
+                
+                Automate Your Business Tools.
               </p>
               <div
                 className="ptf-spacer"
@@ -105,8 +106,8 @@ const HeroAgency = () => {
           <div className="ptf-showcase-slide">
             <div className="container">
               <h1 className="fz-100 fz-90--lg lh-1 has-white-color">
-                <span className="has-accent-1">Crafting</span> Digital
-                Experience
+                <span className="has-accent-1">Digital</span> Marketing
+                 Agency
               </h1>
               {/* <!--Spacer--> */}
               <div
@@ -117,8 +118,7 @@ const HeroAgency = () => {
                 className="fz-24 has-white-color"
                 style={{ maxWidth: "34.375rem" }}
               >
-                Like any great agency, we are only as good as the result we
-                deliver of our recent work.
+                We design marketing campaigns that help your cause create impact. Proven results.
               </p>
               {/* <!--Spacer--> */}
               <div

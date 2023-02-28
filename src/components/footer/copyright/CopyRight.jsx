@@ -15,14 +15,14 @@ const CopyRight = () => {
         <p className="ptf-footer-copyright has-black-color">
           ©{new Date().getFullYear()}{" "}
           <span>
-            Moonex by{" "}
-            <a
+            Vbeasy by{" "}
+            {/* <a
               href="https://themeforest.net/user/ib-themes"
               rel="noopener noreferrer"
               target="_blank"
             >
               ib-themes
-            </a>
+            </a> */}
           </span>
           . All Rights Reserved.
         </p>

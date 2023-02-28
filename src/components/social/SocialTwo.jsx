@@ -3,23 +3,23 @@ import React from "react";
 const socialList = [
   {
     iconName: "socicon-twitter",
-    link: "https://twitter.com/",
+    link: "https://twitter.com/vbeasyit?lang=en",
   },
   {
     iconName: "socicon-facebook",
-    link: "https://www.facebook.com/",
+    link: "https://www.facebook.com/vbeasy/",
   },
   {
     iconName: "socicon-instagram",
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/vbeasy/?hl=en",
   },
   {
     iconName: "socicon-pinterest",
-    link: "https://www.pinterest.com/",
+    link: "https://in.pinterest.com/vbeasy/",
   },
   {
     iconName: "socicon-dribbble",
-    link: "https://dribbble.com/",
+    link: "https://www.youtube.com/c/VBEasy/shorts",
   },
 ];
 

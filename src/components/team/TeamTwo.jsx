@@ -19,12 +19,12 @@ const teamContent = [
     title: "Janus",
     designation: "Custom applications development",
   },
-  {
-    delayAnimation: "100",
-    img: "team-4-m",
-    title: "Sumit",
-    designation: "Italian Transcriber, Interpreter, Voice actor",
-  },
+  // {
+  //   delayAnimation: "100",
+  //   img: "team-4-m",
+  //   title: "Sumit",
+  //   designation: "Italian Transcriber, Interpreter, Voice actor",
+  // },
   {
     delayAnimation: "0",
     img: "team-5-m",
@@ -67,12 +67,12 @@ const teamContent = [
     title: "Laura Lorwence",
     designation: "Project Management",
   },
-  {
-    delayAnimation: "100",
-    img: "team-12-m",
-    title: "Andy Robertson",
-    designation: "Content Writer",
-  },
+  // {
+  //   delayAnimation: "100",
+  //   img: "team-12-m",
+  //   title: "Andy Robertson",
+  //   designation: "Content Writer",
+  // },
   {
     delayAnimation: "100",
     img: "new-member",

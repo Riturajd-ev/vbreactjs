@@ -9,13 +9,13 @@ const CopyRightThree = () => {
           ©{new Date().getFullYear()}{" "}
           <span>
             {" "}
-            <a
+            {/* <a
               href="https://themeforest.net/user/ib-themes"
               rel="noopener noreferrer"
               target="_blank"
             >
               ib-themes
-            </a>
+            </a> */}
           </span>
           . All Rights Reserved.
         </p>

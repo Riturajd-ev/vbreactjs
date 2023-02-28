@@ -8,7 +8,7 @@ const CopyRightTwo = () => {
     <div className="row align-items-center">
       <div className="col-12 col-md-3">
         <a href="index.html">
-          {/* <img src={logo} alt="" loading="lazy" /> */}
+          <img src={logo} alt="" loading="lazy" />
         </a>
       </div>
       {/* End .col */}
@@ -18,9 +18,9 @@ const CopyRightTwo = () => {
           ©{new Date().getFullYear()}{" "}
           <span className="has-white-color">
             <a
-              href="https://themeforest.net/user/ib-themes"
-              rel="noopener noreferrer"
-              target="_blank"
+              // href="https://themeforest.net/user/ib-themes"
+              // rel="noopener noreferrer"
+              // target="_blank"
             >
               vbeasy
             </a>

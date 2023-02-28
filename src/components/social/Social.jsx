@@ -3,22 +3,22 @@ import React from "react";
 const SocialShare = [
   {
     iconName: "socicon-twitter",
-    link: "https://twitter.com/",
+    link: "https://twitter.com/vbeasyit?lang=en",
     iconClass: "twitter",
   },
   {
     iconName: "socicon-facebook",
-    link: "https://www.facebook.com/",
+    link: "https://www.facebook.com/vbeasy/",
     iconClass: "facebook",
   },
   {
     iconName: "socicon-instagram",
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/vbeasy/?hl=en",
     iconClass: "instagram",
   },
   {
     iconName: "socicon-pinterest",
-    link: "https://www.pinterest.com/",
+    link: "https://in.pinterest.com/vbeasy/",
     iconClass: "pinterest",
   },
 ];
